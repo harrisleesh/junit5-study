@@ -5,17 +5,18 @@ import org.junit.jupiter.api.*;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
+@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class StudyTest {
     @Test
-    void create(){
+    @DisplayName("스터디 만들기 \uD83D\uDE31")
+    void create_new_study(){
         Study study = new Study();
         assertNotNull(study);
         System.out.println("create");
     }
 
     @Test
-    @Disabled
-    void create1(){
+    void create_new_study_again(){
         System.out.println("create1");
     }
 
