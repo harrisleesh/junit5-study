@@ -16,3 +16,12 @@
 - @DisplayNameGeneration보다 우선 순위가 높다.<br>
 참고:
 - https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-names
+
+##Assertion
+- org.junit.jupiter.api.Assertions.*
+- assertEquals : 실제 값이 기대한 값과 같은지 확인
+- assertNotNull : 값이 null이 아닌지 확인
+- assertTrue : 다음 조건이 참인지 확인
+- assertAll : 모든 확인 구문 확인
+- assertThrows : 예외 발생 확인
+- assertTimeout : 특정 시간 안에 실행이 완료되는지 확인
