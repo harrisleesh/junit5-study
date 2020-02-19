@@ -25,3 +25,7 @@
 - assertAll : 모든 확인 구문 확인
 - assertThrows : 예외 발생 확인
 - assertTimeout : 특정 시간 안에 실행이 완료되는지 확인
+
+##Assumptions
+- assumeTrue
+- assumeThat
